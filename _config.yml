@@ -3,8 +3,8 @@
 
 # Site settings
 title: Treats on Streets
-description: An ice cream sandwhich delivery company based in the heart of Uptown, MPLS
-owner: Your Name # or company name
+description: An ice cream sandwhich company, delivering to you by bike
+owner: Torsten Brinkema and Triana Willmert
 first_published: 2016 # if migrating another site, the year of your first publish
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
