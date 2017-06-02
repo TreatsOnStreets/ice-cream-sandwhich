@@ -468,6 +468,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			display: none;
 		}
 
+		&.large {
+			width: 2em;
+		}
+
 		&.major {
 			@include vendor('transform', 'rotate(-45deg)');
 			border-radius: 3px;
@@ -1240,7 +1244,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style1 {
-			@include wrapper(accent1);
+			@include wrapper(custom);
 		}
 
 		&.style2 {

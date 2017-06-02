@@ -3,21 +3,20 @@
 
 # Site settings
 title: Treats on Streets
-description: An ice cream sandwhich company, delivering to you by bike
+description: An ice cream sandwich company, delivering to you by bike
 owner: Torsten Brinkema and Triana Willmert
-first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+first_published: 2017 # if migrating another site, the year of your first publish
+email: treatsonstreetsmpls@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  #email: /contact/
+  #github: https://github.com/<username>
+  #linkedin-square: https://linkedin.com/in/<username>
+  facebook-official: https://facebook.com/treatsonstreetsmpls
+  #google-plus-square: https://plus.google.com/u/0/+<username>
+  email: /contact/
   #flickr:
-  #instagram:
+  instagram: https://www.instagram.com/treatsonstreetsmpls/?hl=en
   #youtube-square:
   #spotify:
   #stack-overflow:
