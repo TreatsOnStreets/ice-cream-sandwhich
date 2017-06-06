@@ -9,12 +9,18 @@ title: Order
                                 <form action="treatsonstreetsmpls@gmail.com" method="post" enctype="text/plain">
                                         <div class="row uniform">
                                                 <div class="6u 12u$(xsmall)">
-                                                        <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+                                                        <input type="text" name="demo-firstname" id="demo-firstname" value="" placeholder="First Name" />
+						</div>
+						<div class="6u 12u$(xsmall)">
+                                                        <input type="text" name="demo-lastname" id="demo-lastname" value="" placeholder="Last Name" />
                                                 </div>
                                                 <div class="6u$ 12u$(xsmall)">
                                                         <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-                                                </div>
-                                                <div class="6u$ 12u$">
+						</div>
+                                                <div class="6u$ 12u$(xsmall)">
+                                                        <input type="text" name="demo-phonenumber" id="demo-phonenumber" value="" placeholder="Phone Number" />
+						</div>
+                                                <div class="6u$ 12u$(xsmall)">
                                                         <input type="text" name="demo-address" id="demo-address" value="" placeholder="Address" /> 
 						</div>
                                                 <div class="12u$">
@@ -29,7 +35,20 @@ title: Order
                                                                 </select>
                                                         </div>
 						</div>
-                                                <div class="6u 12u$(small)">
+                                                </div>
+                                                <div class="12u$">
+                                                        <div class="select-wrapper">
+                                                                <select name="select your time" id="desired-delivery">
+                                                                        <option value="">- Desired Delivery Time (Friday) -</option>
+                                                                        <option value="1">2-2:30pm</option>
+                                                                        <option value="1">2:30-3pm</option>
+                                                                        <option value="1">3-3:30pm</option>
+                                                                        <option value="1">3:30-4pm</option>
+                                                                        <option value="1">4-4:30pm</option>
+                                                                </select>
+                                                        </div>
+						</div>
+						<div class="6u 12u$(small)">
                                                         <input type="checkbox" id="demo-copy" name="demo-copy">
                                                         <label for="demo-copy">Email me a copy</label>
                                                 </div>
@@ -38,7 +57,7 @@ title: Order
                                                         <label for="demo-human">Not a robot</label>
                                                 </div>
                                                 <div class="12u$">
-                                                        <textarea name="demo-message" id="demo-message" placeholder=""></textarea>
+                                                        <textarea name="demo-message" id="demo-message" placeholder="Optional Message"></textarea>
                                                 </div>
                                                 <div class="12u$">
                                                         <ul class="actions">
