@@ -7,8 +7,8 @@ about: Homeade ice cream sandwiches, delivered to you by bike
 owner: Torsten Brinkema and Triana Willmert
 first_published: 2017 # if migrating another site, the year of your first publish
 email: treatsonstreetsmpls@gmail.com
-baseurl: "/ice-cream-sandwich" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "www.treatsonstreets.com" # the base hostname & protocol for your site
 social:
   #github: https://github.com/<username>
   #linkedin-square: https://linkedin.com/in/<username>
